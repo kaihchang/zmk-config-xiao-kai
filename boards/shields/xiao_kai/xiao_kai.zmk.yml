@@ -1,0 +1,11 @@
+file_format: "1"
+id: xiao-kai
+name: xiao-kai
+type: shield
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+  - encoders
+siblings:
+  - xiao_kai_left
+  - xiao_kai_right

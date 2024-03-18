@@ -19,6 +19,8 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: cradio_left
+    shield: xiao_kai_left
   - board: seeeduino_xiao_ble
-    shield: cradio_right
+    shield: xiao_kai_right
+  - board: seeeduino_xiao_ble
+    shield: settings_reset

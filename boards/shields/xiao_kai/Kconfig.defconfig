@@ -1,0 +1,16 @@
+if SHIELD_XIAO_KAI_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "xiao-kai"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_XIAO_KAI_LEFT || SHIELD_XIAO_KAI_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

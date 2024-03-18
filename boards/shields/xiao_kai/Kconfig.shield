@@ -1,0 +1,5 @@
+config SHIELD_XIAO_KAI_LEFT
+    def_bool $(shields_list_contains,xiao_kai_left)
+
+config SHIELD_XIAO_KAI_RIGHT
+    def_bool $(shields_list_contains,xiao_kai_right)
