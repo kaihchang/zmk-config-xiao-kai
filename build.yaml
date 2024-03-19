@@ -23,4 +23,6 @@ include:
   - board: seeeduino_xiao_ble
     shield: xiao_kai_right
   - board: seeeduino_xiao_ble
+    shield: rgbled_adapter
+  - board: seeeduino_xiao_ble
     shield: settings_reset
