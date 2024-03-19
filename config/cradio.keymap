@@ -208,8 +208,7 @@
         //                      ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
             >;
             sensor-bindings =
-                <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>,
-                <&behavior_bluetooth>;
+                <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP &behavior_bluetooth>;
         };
 
         gaming_layer {
