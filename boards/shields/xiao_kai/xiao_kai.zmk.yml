@@ -2,6 +2,7 @@ file_format: "1"
 id: xiao-kai
 name: xiao-kai
 type: shield
+url: https://github.com/kaihchang/Xiao_Kai_split_keyboard
 requires: [seeeduino_xiao_ble]
 features:
   - keys
