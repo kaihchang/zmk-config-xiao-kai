@@ -1,7 +1,7 @@
 if SHIELD_XIAO_KAI_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "xiao_kai"
+    default "xiao kai"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
