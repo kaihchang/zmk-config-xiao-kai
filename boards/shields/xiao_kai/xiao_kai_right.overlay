@@ -1,0 +1,19 @@
+#include "xiao_kai.dtsi"
+
+&default_transform { // The matrix transform for this board is 5 columns over because the left half is 5 columns wide according to the matrix.
+    col-offset = <5>;
+};
+
+&kscan0 {
+    col-gpios
+        = <&xiao_d 2 GPIO_ACTIVE_HIGH> // Col 0_r
+        , <&xiao_d 3 GPIO_ACTIVE_HIGH> // Col 1_r
+        , <&xiao_d 4 GPIO_ACTIVE_HIGH> // Col 2_r
+        , <&xiao_d 5 GPIO_ACTIVE_HIGH> // Col 3_r
+        , <&xiao_d 6 GPIO_ACTIVE_HIGH>  // Col 4_r
+        ;
+};
+
+&right_encoder {
+    status = "okay";
+};

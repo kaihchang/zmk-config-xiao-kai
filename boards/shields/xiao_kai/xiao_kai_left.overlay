@@ -1,0 +1,15 @@
+#include "xiao_kai.dtsi"
+
+&kscan0 {
+    col-gpios
+        = <&xiao_d 2 GPIO_ACTIVE_HIGH> // Col 0_l
+        , <&xiao_d 3 GPIO_ACTIVE_HIGH> // Col 1_l
+        , <&xiao_d 4 GPIO_ACTIVE_HIGH> // Col 2_l
+        , <&xiao_d 5 GPIO_ACTIVE_HIGH> // Col 3_l
+        , <&xiao_d 6 GPIO_ACTIVE_HIGH> // Col 4_l
+        ;
+};
+
+&left_encoder {
+    status = "okay";
+};
