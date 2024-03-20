@@ -4,7 +4,6 @@
     chosen {
         zmk,kscan = &kscan0;
         zmk,matrix-transform = &default_transform;
-        zmk,battery = &vbatt; // which battery sensor driver to use
     };
 
     default_transform: keymap_transform_0 {
@@ -30,10 +29,6 @@
             , <&xiao_d 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 2
             , <&xiao_d 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 3
             ;
-    };
-
-    vbatt: vbatt { // use NRF's VDDH pin
-        compatible = "zmk,battery-nrf-vddh";
     };
 
     left_encoder: encoder_left {
